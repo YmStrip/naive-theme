@@ -158,6 +158,14 @@ export declare const THEME_MAIN: {
         itemTextColorActiveHover: string;
         itemTextColorChildActiveHover: string;
         itemIconColorChildActiveHover: string;
+        itemColorActiveCollapsed: string;
+        itemIconColorCollapsed: string;
+        itemColorActiveCollapsedInverted: string;
+        itemTextColor: string;
+        color: string;
+        groupTextColor: string;
+        itemTextColorChildActive: string;
+        itemTextColorHoverHorizontal: string;
     };
     Tabs: {
         tabTextColorLine: string;
