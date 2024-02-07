@@ -1,0 +1,25 @@
+{
+	"name": "y-naive-dark-theme",
+	"version": "1.0.1",
+	"description": "",
+	"scripts": {
+		"pub": "npm publish",
+		"tsc": "tsc"
+	},
+	"exports": {
+		".": {
+			"require": "./naive/index.js",
+			"import": "./naive/index.js"
+		},
+		"./naive": {
+			"require": "./naive/index.js",
+			"import": "./naive/index.js"
+		}
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"naive-ui": "^2.35.0"
+	}
+}

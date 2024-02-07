@@ -27,8 +27,8 @@ export const THEME_MAIN = {
         "borderWarning": "2px solid",
         "borderError": "2px solid",
         "color": "#0000",
-        "textColor": "rgba(255, 255, 0, 0.7)",
-        "textColorHover": "#D2D200FF",
+        "textColor": "rgba(0, 255, 255, 0.7)",
+        "textColorHover": "#00D2D2FF",
         "textColorTextHover": "#00C8C8FF",
         "textColorPressed": "#00C8C8FF",
         "textColorFocus": "#00C8C8FF",
@@ -38,7 +38,12 @@ export const THEME_MAIN = {
         "colorDisabledPrimary": "#63e2b7",
         "textColorTextHoverWarning": "#f5d599",
         "textColorError": "#000000FF",
-        "textColorTertiary": "rgba(0, 255, 255, 0.7)"
+        "textColorTertiary": "rgba(255, 255, 0, 0.7)",
+        "borderHover": "0",
+        "borderFocus": "0px",
+        "colorHoverInfo": "#1CFCF1FF",
+        "colorFocusInfo": "#37F6EDFF",
+        "colorPressedInfo": "#29EFECFF"
     },
     "Card": {
         "borderColor": "rgba(0, 200, 200, 0.8)",
@@ -144,16 +149,21 @@ export const THEME_MAIN = {
     "Tabs": {
         "tabTextColorLine": "rgba(255, 255, 255, 0.9)",
         "tabTextColorDisabledSegment": "rgba(255, 255, 255, 0.38)",
-        "tabColorSegment": "rgba(225, 225, 0, 1)",
+        "tabColorSegment": "rgba(0, 255, 255, 1)",
         "tabBorderColor": "rgba(255, 255, 255, 0.09)",
         "paneTextColor": "rgba(255, 255, 255, 0.82)",
         "colorSegment": "rgba(0, 0, 0, 1)",
         "tabTextColorSegment": "rgba(255, 255, 255, 0.9)",
         "tabTextColorActiveSegment": "rgba(0, 0, 0, 0.82)",
-        "tabTextColorActiveCard": "#DCDC00FF",
+        "tabTextColorActiveCard": "#00DCDCFF",
         "tabTextColorDisabledCard": "rgba(255, 255, 255, 0.38)",
         "tabTextColorCard": "rgba(255, 255, 255, 0.9)",
-        "closeColorHover": "rgba(255, 255, 255, .12)"
+        "closeColorHover": "rgba(255, 255, 255, .12)",
+        "tabTextColorActiveLine": "#00DCDCFF",
+        "tabTextColorActiveBar": "#00DCDCFF",
+        "tabTextColorHoverBar": "#00DCDCFF",
+        "barColor": "#00DCDCFF",
+        "tabTextColorHoverLine": "#00DCDCFF"
     },
     "Tooltip": {
         "color": "rgba(0, 0, 0, 1)",
@@ -167,6 +177,9 @@ export const THEME_MAIN = {
     "Scrollbar": {
         "color": "rgba(0, 255, 255, 0.8)",
         "colorHover": "rgba(0, 255, 255, 1)"
+    },
+    "Checkbox": {
+        "color": "#43424AA3"
     }
 };
 //# sourceMappingURL=main.js.map

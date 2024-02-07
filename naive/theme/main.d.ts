@@ -39,6 +39,11 @@ export declare const THEME_MAIN: {
         textColorTextHoverWarning: string;
         textColorError: string;
         textColorTertiary: string;
+        borderHover: string;
+        borderFocus: string;
+        colorHoverInfo: string;
+        colorFocusInfo: string;
+        colorPressedInfo: string;
     };
     Card: {
         borderColor: string;
@@ -154,6 +159,11 @@ export declare const THEME_MAIN: {
         tabTextColorDisabledCard: string;
         tabTextColorCard: string;
         closeColorHover: string;
+        tabTextColorActiveLine: string;
+        tabTextColorActiveBar: string;
+        tabTextColorHoverBar: string;
+        barColor: string;
+        tabTextColorHoverLine: string;
     };
     Tooltip: {
         color: string;
@@ -167,5 +177,8 @@ export declare const THEME_MAIN: {
     Scrollbar: {
         color: string;
         colorHover: string;
+    };
+    Checkbox: {
+        color: string;
     };
 };

@@ -1,4 +1,4 @@
-export const THEME_MAIN = {
+{
 	"common": {
 		"primaryColor": "#DCDC00FF",
 		"infoColor": "#00F0F0FF",
