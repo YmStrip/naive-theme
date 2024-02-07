@@ -1,6 +1,6 @@
 {
-	"name": "y-naive-dark-theme",
-	"version": "1.0.2",
+	"name": "y-naive-theme",
+	"version": "1.0.4",
 	"description": "",
 	"scripts": {
 		"pub": "npm publish",
@@ -8,12 +8,16 @@
 	},
 	"exports": {
 		".": {
-			"require": "./naive/index.js",
-			"import": "./naive/index.js"
+			"require": "./src/dark.js",
+			"import": "./src/dark.js"
 		},
-		"./naive": {
-			"require": "./naive/index.js",
-			"import": "./naive/index.js"
+		"./dark": {
+			"require": "./src/dark.js",
+			"import": "./src/dark.js"
+		},
+		"./light": {
+			"require": "./src/light.js",
+			"import": "./src/light.js"
 		}
 	},
 	"keywords": [],

@@ -1,4 +1,4 @@
-{
+export const light = {
 	"common": {
 		"primaryColor": "#DCDC00FF",
 		"infoColor": "#00F0F0FF",
@@ -136,7 +136,7 @@
 		"itemColorActiveHover": "rgba(220, 220, 0, 1)",
 		"itemTextColorHover": "rgba(0, 0, 0, 0.82)",
 		"itemTextColorHorizontal": "rgba(255, 255, 255, 0.82)",
-		"itemIconColorHover": "rgba(30, 27, 27, 0.9)",
+		"itemIconColorHover": "rgba(9, 13, 42, 0.9)",
 		"arrowColorHover": "rgba(0, 0, 0, 0.82)",
 		"itemIconColorHorizontalInverted": "#BBB",
 		"groupTextColorInverted": "#AAA",
@@ -150,14 +150,22 @@
 		"itemIconColorHoverHorizontal": "#D2D200FF",
 		"arrowColorActiveHover": "#3D3D22FF",
 		"arrowColorChildActive": "#10100EFF",
-		"itemIconColorActive": "#D2D20EFF",
+		"itemIconColorActive": "#74740EFF",
 		"itemIconColorActiveHover": "#26260FFF",
 		"itemIconColorChildActive": "#DCDC00FF",
-		"itemColorActive": "rgba(255, 255, 0, 0.16)",
-		"itemTextColorActive": "#FBFB07FF",
+		"itemColorActive": "rgba(220, 220, 0, 0.15)",
+		"itemTextColorActive": "#DCDC00FF",
 		"itemTextColorActiveHover": "#21211BFF",
 		"itemTextColorChildActiveHover": "#181812FF",
-		"itemIconColorChildActiveHover": "#30302AFF"
+		"itemIconColorChildActiveHover": "#1A1A17FF",
+		"itemColorActiveCollapsed": "rgba(220, 220, 0, 1)",
+		"itemIconColorCollapsed": "rgba(255, 255, 255, 0.9)",
+		"itemColorActiveCollapsedInverted": "rgb(42, 148, 125)",
+		"itemTextColor": "rgba(255, 255, 255, 0.82)",
+		"color": "#0000",
+		"groupTextColor": "rgba(255, 255, 0, 0.9)",
+		"itemTextColorChildActive": "#DCDC00FF",
+		"itemTextColorHoverHorizontal": "#D2D200FF"
 	},
 	"Tabs": {
 		"tabTextColorLine": "rgba(255, 255, 255, 0.9)",

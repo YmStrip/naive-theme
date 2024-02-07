@@ -21,6 +21,7 @@
 		"noFallthroughCasesInSwitch": false
 	},
 	"include": [
-		"naive/**/*.ts"
+		"lib/**/*.ts",
+		"src/**/*.ts"
 	]
 }
