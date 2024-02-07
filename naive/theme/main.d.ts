@@ -145,6 +145,19 @@ export declare const THEME_MAIN: {
         itemTextColorInverted: string;
         dividerColor: string;
         borderColorHorizontal: string;
+        itemIconColorActiveHoverHorizontal: string;
+        itemIconColorActiveHorizontal: string;
+        itemIconColorHoverHorizontal: string;
+        arrowColorActiveHover: string;
+        arrowColorChildActive: string;
+        itemIconColorActive: string;
+        itemIconColorActiveHover: string;
+        itemIconColorChildActive: string;
+        itemColorActive: string;
+        itemTextColorActive: string;
+        itemTextColorActiveHover: string;
+        itemTextColorChildActiveHover: string;
+        itemIconColorChildActiveHover: string;
     };
     Tabs: {
         tabTextColorLine: string;

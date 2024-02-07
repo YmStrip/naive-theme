@@ -1,6 +1,6 @@
 {
 	"name": "y-naive-dark-theme",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "",
 	"scripts": {
 		"pub": "npm publish",
