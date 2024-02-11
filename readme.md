@@ -1,14 +1,14 @@
 ![](theme.png)
 ```shell script
-pnpm i y-naive-dark-theme
+pnpm i y-naive-theme
 ```
 ```vue
 <template>
-	<n-config-provider :theme-overrides="override">
+	<n-config-provider :theme-overrides="dark">
 		<app/>
 	</n-config-provider>
 </template>
 <script lang="ts" setup>
-import override from "naive-dark-theme/naive";
+import dark from "y-naive-theme/dark";
 </script>
 ```

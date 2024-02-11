@@ -9,7 +9,7 @@
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
 		"target": "ES2020",
-		"moduleResolution": "node",
+		"module": "commonjs",
 		"sourceMap": true,
 		"baseUrl": "./",
 		"incremental": true,
@@ -19,7 +19,7 @@
 		"strictBindCallApply": false,
 		"forceConsistentCasingInFileNames": false,
 		"noFallthroughCasesInSwitch": false,
-		"outDir": "./es"
+		"outDir": "./cjs"
 	},
 	"include": [
 		"lib/**/*.ts",

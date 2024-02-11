@@ -14,6 +14,7 @@ export declare const light: {
         primaryColorHover: string;
         primaryColorPressed: string;
         modalColor: string;
+        infoColorHover: string;
     };
     Button: {
         border: string;
@@ -44,6 +45,40 @@ export declare const light: {
         colorHoverInfo: string;
         colorFocusInfo: string;
         colorPressedInfo: string;
+        textColorDisabled: string;
+        textColorTextPressed: string;
+        textColorTextFocus: string;
+        colorPressedPrimary: string;
+        textColorPrimary: string;
+        textColorHoverPrimary: string;
+        textColorPressedPrimary: string;
+        textColorFocusPrimary: string;
+        textColorDisabledPrimary: string;
+        colorFocusPrimary: string;
+        colorInfo: string;
+        textColorInfo: string;
+        textColorHoverInfo: string;
+        textColorPressedInfo: string;
+        textColorFocusInfo: string;
+        textColorDisabledInfo: string;
+        textColorTextInfo: string;
+        textColorTextHoverInfo: string;
+        colorSuccess: string;
+        textColorSuccess: string;
+        textColorHoverSuccess: string;
+        textColorPressedSuccess: string;
+        textColorFocusSuccess: string;
+        textColorDisabledSuccess: string;
+        textColorWarning: string;
+        textColorHoverWarning: string;
+        textColorPressedWarning: string;
+        textColorFocusWarning: string;
+        textColorDisabledWarning: string;
+        textColorHoverError: string;
+        textColorPressedError: string;
+        textColorFocusError: string;
+        textColorDisabledError: string;
+        colorTertiary: string;
     };
     Card: {
         borderColor: string;
@@ -73,6 +108,8 @@ export declare const light: {
         color: string;
         dividerColor: string;
         optionColorHover: string;
+        optionTextColor: string;
+        optionColorHoverInverted: string;
     };
     Input: {
         color: string;
@@ -87,16 +124,20 @@ export declare const light: {
         suffixTextColor: string;
         groupLabelColor: string;
         borderHover: string;
+        groupLabelTextColor: string;
+        textColor: string;
     };
     Radio: {
         color: string;
+        buttonTextColor: string;
+        buttonColor: string;
+        buttonColorActive: string;
     };
     Select: {};
     Switch: {
         textColor: string;
         railColorActive: string;
         buttonColor: string;
-        boxShadowFocus: string;
         railColor: string;
         opacityDisabled: string;
     };
@@ -106,10 +147,10 @@ export declare const light: {
         fillColor: string;
         fillColorHover: string;
         handleColor: string;
-        handleBoxShadow: string;
-        handleBoxShadowHover: string;
-        handleBoxShadowActive: string;
-        handleBoxShadowFocus: string;
+        dotColorModal: string;
+        indicatorColor: string;
+        indicatorTextColor: string;
+        dotColorPopover: string;
     };
     Table: {
         borderColor: string;
@@ -118,6 +159,10 @@ export declare const light: {
         thTextColor: string;
         thColorModal: string;
         tdTextColor: string;
+        tdColorStripedModal: string;
+        tdColor: string;
+        borderColorPopover: string;
+        borderColorModal: string;
     };
     DataTable: {
         thTextColor: string;
@@ -130,6 +175,7 @@ export declare const light: {
         iconColor: string;
         borderRadius: string;
         iconColorHover: string;
+        iconColorPressed: string;
     };
     Menu: {
         itemColorHover: string;
@@ -166,6 +212,14 @@ export declare const light: {
         groupTextColor: string;
         itemTextColorChildActive: string;
         itemTextColorHoverHorizontal: string;
+        itemIconColor: string;
+        itemTextColorChildActiveHoverHorizontal: string;
+        itemTextColorActiveHorizontal: string;
+        arrowColor: string;
+        itemIconColorHorizontal: string;
+        itemIconColorCollapsedInverted: string;
+        colorInverted: string;
+        itemColorHoverInverted: string;
     };
     Tabs: {
         tabTextColorLine: string;
@@ -185,15 +239,20 @@ export declare const light: {
         tabTextColorHoverBar: string;
         barColor: string;
         tabTextColorHoverLine: string;
+        closeIconColor: string;
+        tabTextColorHoverCard: string;
+        tabTextColorHoverSegment: string;
+        tabTextColorBar: string;
+        tabTextColorDisabledBar: string;
     };
     Tooltip: {
         color: string;
         textColor: string;
-        boxShadow: string;
     };
     Modal: {
         color: string;
         boxShadow: string;
+        textColor: string;
     };
     Scrollbar: {
         color: string;
@@ -201,5 +260,40 @@ export declare const light: {
     };
     Checkbox: {
         color: string;
+        colorTableHeaderModal: string;
+        checkMarkColor: string;
+    };
+    Rate: {
+        itemColorActive: string;
+    };
+    Layout: {
+        siderToggleButtonColor: string;
+        colorEmbedded: string;
+        headerColorInverted: string;
+        headerBorderColorInverted: string;
+        footerBorderColor: string;
+    };
+    Steps: {
+        indicatorTextColorProcess: string;
+    };
+    Alert: {
+        titleTextColor: string;
+        colorInfo: string;
+        titleTextColorInfo: string;
+        colorSuccess: string;
+        colorWarning: string;
+        colorError: string;
+    };
+    Dialog: {
+        titleTextColor: string;
+        color: string;
+        closeIconColor: string;
+    };
+    Drawer: {
+        color: string;
+    };
+    Split: {
+        resizableTriggerColor: string;
+        resizableTriggerColorHover: string;
     };
 };

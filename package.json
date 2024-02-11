@@ -1,23 +1,23 @@
 {
 	"name": "y-naive-theme",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"description": "",
 	"scripts": {
 		"pub": "npm publish",
-		"tsc": "tsc"
+		"tsc": "tsc && tsc --project cjs.tsconfig.json"
 	},
 	"exports": {
 		".": {
-			"require": "./src/dark.js",
-			"import": "./src/dark.js"
+			"require": "./cjs",
+			"import": "./es"
 		},
 		"./dark": {
-			"require": "./src/dark.js",
-			"import": "./src/dark.js"
+			"require": "./cjs/dark.js",
+			"import": "./es/dark.js"
 		},
 		"./light": {
-			"require": "./src/light.js",
-			"import": "./src/light.js"
+			"require": "./cjs/light.js",
+			"import": "./es/light.js"
 		}
 	},
 	"keywords": [],
